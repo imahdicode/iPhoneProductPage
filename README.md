@@ -41,6 +41,7 @@ http://localhost:8000/home.html
 This gives more accurate behavior than opening files with file://.
 
 📸 Screenshots
+
 Home Page
 ![Home Page](screenshots/home.png)
 
