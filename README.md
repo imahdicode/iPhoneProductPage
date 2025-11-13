@@ -46,7 +46,7 @@ Home Page
 ![Home Page](screenshots/home.png)
 
 Product Page
-![Product Page](screenshots/product.png)
+![Product Page](screenshots/products.png)
 
 Login Page
 ![Login Page](screenshots/login.png)
