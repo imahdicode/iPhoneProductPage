@@ -40,25 +40,42 @@ http://localhost:8000/home.html
 
 This gives more accurate behavior than opening files with file://.
 
-📸 Screenshots
+## Screenshots
 
-Home Page
-![Home Page](screenshots/home.png)
+Preview of the main pages. Click an image to open the full-size screenshot.
 
-Product Page
-![Product Page](screenshots/products.png)
+<table>
+  <tr>
+    <td align="center">
+      <a href="screenshots/home.png"><img src="screenshots/home.png" alt="Home page preview" width="300"/></a>
+      <div><strong>Home</strong><br/><em>Main landing page with featured product</em></div>
+    </td>
+    <td align="center">
+      <a href="screenshots/products.png"><img src="screenshots/products.png" alt="Product page preview" width="300"/></a>
+      <div><strong>Products</strong><br/><em>Product grid and details</em></div>
+    </td>
+    <td align="center">
+      <a href="screenshots/login.png"><img src="screenshots/login.png" alt="Login page preview" width="300"/></a>
+      <div><strong>Login</strong><br/><em>Demo login form</em></div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="screenshots/register.png"><img src="screenshots/register.png" alt="Register page preview" width="300"/></a>
+      <div><strong>Register</strong><br/><em>Demo registration form</em></div>
+    </td>
+    <td align="center">
+      <a href="screenshots/about.png"><img src="screenshots/about.png" alt="About page preview" width="300"/></a>
+      <div><strong>About</strong><br/><em>About the demo site</em></div>
+    </td>
+    <td align="center">
+      <a href="screenshots/contact.png"><img src="screenshots/contact.png" alt="Contact page preview" width="300"/></a>
+      <div><strong>Contact</strong><br/><em>Contact / support demo</em></div>
+    </td>
+  </tr>
+</table>
 
-Login Page
-![Login Page](screenshots/login.png)
-
-Register Page
-![Register Page](screenshots/register.png)
-
-About Page
-![About Page](screenshots/about.png)
-
-Contact Page
-![Contact Page](screenshots/contact.png)
+---
 
 🛠️ Tech Used
 
