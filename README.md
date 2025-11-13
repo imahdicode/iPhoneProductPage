@@ -1,113 +1,58 @@
-# iPhoneProductPage
+iPhone Product Page – Static Frontend
 
-A clean, Apple-inspired static frontend showcasing an iPhone product page and related site pages. This project is a small portfolio/demo site built with plain HTML, CSS and JavaScript to practice layout, responsive design, and basic interaction patterns.
+A clean Apple-inspired static website showcasing iPhone product details along with supporting pages like Home, Login, Register, About, and Contact.
+Built using pure HTML and CSS to practice layout design, UI structure, and simple frontend workflow.
 
-## Table of contents
+✨ Features
 
-- About
-- Features
-- Files / Project structure
-- Quick start (run locally)
-- Development notes
-- Troubleshooting
-- Project contract & edge cases
-- Contributing
-- Contact
+iPhone-style product display page
 
-## About
+Minimal, Apple-inspired UI
 
-This repository contains a simple static website that mimics an iPhone product page and supporting pages (Home, Product, Login, Register, About, Contact). It's intended as a frontend portfolio piece or a starting template for small static sites.
+Fully static frontend (HTML + CSS)
 
-## Features
+Pages: Home, Product, Login, Register, About, Contact
 
-- Static, dependency-free HTML/CSS/JS pages
-- Apple-inspired, minimal product page layout
-- Ready-to-open pages or start a tiny local server via `start-server.ps1`
+Lightweight and fast — no frameworks, no dependencies
 
-## Files / Project structure
+📁 Project Structure
+home.html → Main landing page  
+product.html → iPhone product showcase  
+login.html → Demo login page  
+register.html → Demo registration page  
+about.html → About the site  
+contact.html → Contact page  
+assets/ → Images, icons, styles (if any)
 
-Top-level files in this project:
+🚀 How to Run (Local Preview)
+Option 1: Direct open
 
-- `home.html` — Landing / home page
-- `product.html` — iPhone product showcase page
-- `login.html` — Login form (demo)
-- `register.html` — Registration form (demo)
-- `about.html` — About page
-- `contact.html` — Contact page
-- `start-server.ps1`— Convenience PowerShell script to start a tiny HTTP server and open the site
-- `README.md` — This file
+Simply double-click home.html to open it in your browser.
 
+Option 2: Start a local server (recommended)
 
-## Quick start — run locally
+If you have Python installed:
 
-Requirements:
-
-- Windows PowerShell (this repo includes a helper PowerShell script)
-- Python 3 installed and available as `py` or `python` (for the tiny HTTP server). If you don't have Python, you can open the `.html` files directly in your browser, or use an editor extension such as VS Code Live Server.
-
-Start the included server (recommended):
-
-1. Open PowerShell in the project folder (where `start-server.ps1` lives).
-2. Run (recommended to allow script execution for this run only):
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\start-server.ps1 -Port 8000
-```
-
-This script will:
-
-- start a simple Python http.server on the chosen port (default 8000)
-- open `http://localhost:8000/home.html` in your default browser
-
-Alternative (if `py` isn't available):
-
-```powershell
-# from the project folder
 python -m http.server 8000
-# then open http://localhost:8000/home.html in your browser
-```
 
-Or simply double-click `home.html` to open the page in your browser (some features may behave differently when loaded via file:// vs http://).
+Then open:
+http://localhost:8000/home.html
 
-## Development notes
+This gives more accurate behavior than opening files with file://.
 
-- This is a static site — there is no build step.
-- Edit the HTML/CSS/JS files directly. If you add a build tool (npm, bundlers), update this README and include a `package.json`.
+🛠️ Tech Used
 
-Suggested local workflow:
+HTML5
 
-1. Start the small server (see Quick start).
-2. Edit files in your editor and refresh the browser.
+CSS3
 
-## Troubleshooting
+(Optional) Small JavaScript enhancements can be added later
 
-- If the PowerShell script fails due to ExecutionPolicy, run it with the `-ExecutionPolicy Bypass` flag as shown above.
-- If `py` is not recognized, try `python -m http.server 8000` instead, or install Python from https://python.org.
-- If the browser doesn't open automatically, manually navigate to `http://localhost:8000/home.html` after starting the server.
+📌 Purpose
 
-## Project contract (mini)
+This project is made for learning, practicing UI design, and showcasing frontend skills in a portfolio.
+It’s a great starter template for anyone learning static web development.
 
-- Inputs: static HTML, CSS, JS files in this folder.
-- Output: a static website served via file:// or a tiny HTTP server.
-- Error modes: missing assets (404), server port in use, ExecutionPolicy blocking script, missing Python runtime.
+📬 Contact
 
-Edge cases to consider:
-
-- Empty or missing referenced assets (images/CSS/JS) — pages will still load but with missing visuals or broken interactions.
-- Running via `file://` may change behavior of fetch/XHR; prefer `http://` server for accurate testing.
-- Older browsers may not support modern CSS/JS features used in the pages.
-
-## Contributing
-
-Contributions are welcome. Suggested process:
-
-1. Fork the repository
-2. Make changes on a feature branch
-3. Open a pull request describing the change
-
-If you'd like, I can help add a small contributions guide or a basic linting/formatting setup.
-
-
-## Contact
-
-If you have questions or want help improving this project, open an issue or contact the repository owner.
+Feel free to open an issue or reach out for improvements or suggestions.
