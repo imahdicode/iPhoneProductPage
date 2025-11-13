@@ -40,6 +40,25 @@ http://localhost:8000/home.html
 
 This gives more accurate behavior than opening files with file://.
 
+📸 Screenshots
+Home Page
+![Home Page](screenshots/home.png)
+
+Product Page
+![Product Page](screenshots/product.png)
+
+Login Page
+![Login Page](screenshots/login.png)
+
+Register Page
+![Register Page](screenshots/register.png)
+
+About Page
+![About Page](screenshots/about.png)
+
+Contact Page
+![Contact Page](screenshots/contact.png)
+
 🛠️ Tech Used
 
 HTML5
